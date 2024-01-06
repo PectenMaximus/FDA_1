@@ -1,8 +1,2 @@
-import pandas as pd
-import numpy as np 
-import os
-import matplotlib as plt
-# import seaborn as sns 
-
-dataframe = pd.read_csv('Iris.csv')
-dataframe.head()
+import matplotlib
+print(matplotlib.__version__)
